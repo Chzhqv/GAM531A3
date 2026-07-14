@@ -20,8 +20,8 @@ Texture Texture::createFromPixels(const unsigned char* pixels, int width, int he
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
 
-    // Pixel art sprites want crisp nearest-neighbor sampling; other textures
-    // (e.g. the Phong-lit 3D object later) look better with linear filtering.
+    // Pixel art sprites want crisp nearest-neighbor sampling; larger
+    // environment/background art can look better with linear filtering.
     GLint filter = pixelArt ? GL_NEAREST : GL_LINEAR;
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, filter);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, filter);
