@@ -9,7 +9,10 @@
 // Explicitly NOT implemented yet (left for once sprite sheet art is chosen):
 //   - Sprite sheet frame slicing / UV animation.
 //   - Player movement (WASD/arrows) and frame-rate independent motion.
-//   - Collision detection (AABB) and Phong-lit 3D object.
+//   - Collision detection (AABB).
+//   - Character/world asset loading (CraftPix sprite sheet + environment art).
+// See Player.h, Collision.h, and WorldAssets.h for the stub interfaces each
+// of those pieces will be built against.
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
