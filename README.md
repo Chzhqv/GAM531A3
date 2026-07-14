@@ -36,8 +36,8 @@ Abaddon.
 ## Team Members & Roles
 
 Pick an open role below and replace the placeholder with your name and student
-number. Nikita already owns Core Engine & Integration (built out below), and
-also floats across the other systems to help unblock whoever needs it.
+number. Nikita owns Core Engine & Integration plus Path/Scene Layout (built out
+below), and also floats across the other systems to help unblock whoever needs it.
 
 | Role | What you'll do | Assigned To |
 |---|---|---|
@@ -46,7 +46,7 @@ also floats across the other systems to help unblock whoever needs it.
 | **Player Movement & Input** | WASD/arrow-key movement, frame-rate independent via the delta time already wired into the main loop, keep player within scene bounds. | _choose a role & add your name + student #_ |
 | **Collision Detection (AABB)** | Define AABBs for the player and 5+ obstacles (troll guardians, fallen trees, rubble) along the forest path, implement overlap testing, block the player from passing through. | _choose a role & add your name + student #_ |
 | **Phong Lighting** | Add the troll castle as a 3D object at the end of the path, write the GLSL Phong shader (ambient + diffuse + specular) for its light, tune light/material uniforms. | _choose a role & add your name + student #_ |
-| **Path/Scene Layout, Art & Docs** | Lay out the village-to-mountain path and obstacle placement across the four story beats, source and credit sprite/texture assets, keep this README current (controls, credits), help with final QA pass. | _choose a role & add your name + student #_ |
+| **Path/Scene Layout, Art & Docs** | Lay out the village-to-mountain path and obstacle placement across the four story beats, source and credit sprite/texture assets, keep this README current (controls, credits), help with final QA pass. | Nikita Chizhikov — 173740234 |
 
 Team roster: Ryaan Farrukh, Shan-Yun Wang, Aaron Klem, Xena Illarionov, Nikita Chizhikov, Theo Oey
 
